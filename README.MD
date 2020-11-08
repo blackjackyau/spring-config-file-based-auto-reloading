@@ -1,4 +1,4 @@
-# Spring Config Reloading solution for file-based configuration
+# Spring Config Auto Reloading solution for file-based configuration
 
 It is almost impossible to hot reload the properties value from a native spring solution.
 For native java application, there's a solution from apache library ([commons-configuration](https://commons.apache.org/proper/commons-configuration/#:~:text=The%20Commons%20Configuration%20software%20library,from%20a%20variety%20of%20sources))
