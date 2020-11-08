@@ -1,0 +1,9 @@
+server:
+  port: 8080
+
+#spring:
+#  application:
+#    name: configserver
+
+com.blax.config:
+  environment: ext-default-21

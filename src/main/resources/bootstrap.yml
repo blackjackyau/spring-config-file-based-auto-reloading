@@ -1,0 +1,18 @@
+# https://cloud.spring.io/spring-cloud-config/reference/html/#composite-environment-repositories
+#  If you want to read the configuration for an application directly from the backend repository
+#(instead of from the config server), you basically want an embedded config server with no endpoints.
+#You can switch off the endpoints entirely by not using the @EnableConfigServer annotation (set spring.cloud.config.server.bootstrap=true).
+spring:
+  application:
+    name: configserver
+  profiles:
+    active: composite
+  cloud:
+    config:
+      failFast: true
+      server:
+        composite:
+          - type: native
+            search-locations: config # relative folder to current folder
+        bootstrap: true
+        prefix: config

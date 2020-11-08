@@ -1,0 +1,10 @@
+server:
+  port: 8080
+
+com.blax.config:
+  environment: default
+  classpath: true
+
+environment: default
+
+# management.endpoints.web.exposure.include: health,info,refresh

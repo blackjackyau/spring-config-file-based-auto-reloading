@@ -1,0 +1,5 @@
+server:
+  port: 8080
+
+com.blax.config:
+  environment: ext-default-199
