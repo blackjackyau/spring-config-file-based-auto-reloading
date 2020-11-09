@@ -9,7 +9,7 @@ but,
 ### Spring Cloud Config
 - Spring Cloud Config support config reloading via [RefreshScope](https://www.javadoc.io/doc/org.springframework.cloud/spring-cloud-commons-parent/1.1.4.RELEASE/org/springframework/cloud/context/scope/refresh/RefreshScope.html) but not all integration type support automatic properties reload.
 - E.g. Spring Cloud Config Consul support but Spring Cloud Config Server doesn't.
-- RefreshScope is usually triggered via Spring Actuator Endpoint `/actuator/refresh` or via Spring Bus with queue system (example)[https://soshace.com/spring-cloud-config-refresh-strategies/]
+- RefreshScope is usually triggered via Spring Actuator Endpoint `/actuator/refresh` or via Spring Bus with queue system [example](https://soshace.com/spring-cloud-config-refresh-strategies/)
 
 ### Project Introduction
 - In this project, we are using Spring Cloud Config of [Embedding the Config Server](https://cloud.spring.io/spring-cloud-config/reference/html/#_embedding_the_config_server) with `native` file type [boostrap.yml](src\main\resources\boostrap.yml).
